@@ -1,0 +1,244 @@
+*{
+    margin: 0;/*espacio externo*/
+    padding: 0;/*espacio interno*/
+}
+ 
+
+body{
+    background: linear-gradient(to top,rgba(121, 115, 115, 0.5)50%,rgba(121, 115, 115, 0.5)50%),url(img/logooo.jpg);
+    background-position: center;
+    background-size:cover ;
+    height:100vh;
+    font-family: sans-serif;
+    
+}
+
+
+
+.logo{
+    color: #ffff;
+    font-size: 30px;
+    font-family:Arial, Helvetica, sans-serif;
+    float: left;
+    padding-top: 1.5%;
+    cursor: pointer;
+    margin: 10px;
+
+}
+
+.bth{
+    font-size: 40px;
+    font-family:Arial, Helvetica, sans-serif;
+    display: inline-block;
+    margin-top: 1rem;
+    border-radius: 5rem;
+    background: rgb(29, 148, 55);
+    color: #ffff;
+    padding: .8rem 3.5rem;
+    cursor: pointer;
+    font-size: 12px;
+    padding: 5%;
+    font-weight: 40px;
+    text-decoration: none;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    width: 75px;
+    height:auto;
+}
+
+.bth:hover{
+    background:var(green);
+}
+.menu{
+    width: 200px;
+    float: left;
+    height: 70px;
+
+}
+
+ul{
+    float: left;
+    display: flex;
+    padding-top: 30px;
+    justify-content: center;
+    align-items: center;
+    margin-left: 5%;
+
+}
+
+ul li{
+    list-style: none;
+    margin-left: 100px;
+    font-size: 16px;
+
+}
+
+ul li a{
+    text-decoration: none;
+    color: #ffff;
+    width: 25px;
+    display: bolder;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+}
+
+ul li a:hover{
+    color:#ffff;
+    text-decoration: none;
+    font-size: 15px;
+    background-color:green;
+    display: bolder;
+    font-weight:bold;
+}
+
+.logo a{
+    color:white;
+text-decoration:none;
+}
+
+img{
+    height: 50px;
+    width: 250px;
+}
+
+.benja:hover{
+    font-size: 40px;
+}
+.footer{
+    display: block;
+    position: absolute;
+    bottom: 20px;
+    left: 10px;
+    animation: mover-izquierda-derecha 30s;
+}
+@keyframes mover-izquierda-derecha{
+    from{
+        transform: translate(0px);
+    }
+    to{
+        transform: translateX(900px);
+    }
+}
+.footer a{
+    font-weight: bold;
+    margin-right: 10px;
+}
+
+#icono-facebook{
+    color: #2629ce;
+    text-decoration: none;
+    }
+
+#icono-instagram{
+    color: #a04141;
+    text-decoration: none;
+}
+
+#icono-twitter{
+    color:#2a71db;
+    text-decoration: none;
+  }
+
+
+#txtbuscar{
+  
+    background-color: #ffff;
+    height: 30px;
+    width: 100px;
+    border:#ffff 1px;
+    margin-right: 15px;
+    padding-left: 10px;
+    color:rgb(0, 0, 0);
+
+}
+
+.contenido{
+    clear: both;
+    display: block;
+    padding-top: 100px;
+    padding-left: 100px;
+    padding-right: 1000px;
+    
+}
+.contenido h2{
+    font-size: 50px;
+    font-family:Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+.contenido div{
+    margin-top: 45px;
+    text-align:center;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+
+.buscar {
+    width: 200px;
+}
+
+#titulo-beneficio{
+    font-family: 'Playfair Display', serif;
+}
+
+.card1{
+    width: 200px;
+    height: 230px;
+    float: right;
+    display: inline-block;
+    border-radius: 10px;
+    padding: 15px 25px;
+    box-sizing: border-box;
+    cursor: pointer;
+    margin: 10px 15px;
+    background-image: url(img/foto11.jpg);
+}
+
+.card2{
+    width: 200px;
+    height: 230px;
+    float: right;
+    display: inline-block;
+    border-radius: 10px;
+    position: left;
+    padding: 20px 25px;
+    box-sizing: border-box;
+    cursor: pointer;
+    margin: 10px 15px;
+    background-image: url(img/foto12.jpg);
+}
+
+.card3{
+    width: 200px;
+    height: 230px;
+    float: right;
+    display: inline-block;
+    border-radius: 10px;
+    position: left;
+    padding: 20px 25px;
+    box-sizing: border-box;
+    cursor: pointer;
+    margin: 10px 15px;
+    background-image: url(img/foto13.jpg);
+}
+
+.card4{
+    width: 200px;
+    height: 230px;
+    float: right;
+    display: inline-block;
+    border-radius: 10px;
+    position: left;
+    padding: 20px 25px;
+    box-sizing: border-box;
+    cursor: pointer;
+    margin: 10px 15px;
+    background-image: url(img/foto14.jpg);
+}
+.todo_card_1{
+    margin-right: 300px;
+}
+    
+
+.todo_card_2{
+    margin-right:300px ;
+}
+

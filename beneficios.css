@@ -1,0 +1,115 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    background-image: url(img/fondoverde.jpg);
+    background-size: cover;
+}
+
+.main{
+    width: 780px;
+    margin:0 auto;
+}
+.banner{
+    display: flex;
+    background-image: radial-gradient(circle at 50% -3.03%, #e1bfff 0, #a69aff 25%, #6e73d8 50%, #3c4d99 75%, #112c61 100%);
+    height: 50px;
+}
+
+.titulo{
+    width: 312px;
+}
+
+.titulo h1{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    margin-left: 80px;
+    margin-top: 10px;
+    color: aliceblue;
+}
+
+.iconos{
+    width: 468px;
+    
+    
+}
+
+.iconos ul{
+    list-style-type: none;
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.iconos ul li{
+    border-radius: 25px;
+    border: 1px solid #000;
+    padding: 5px;
+    margin-right: 50px;
+    margin-top: 10px;
+    
+}
+
+.menu ul{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    margin-top: 10px;
+    
+}
+
+.menu ul li{
+    height: 50px;
+    width: 150px;
+    
+    
+}
+
+.contenido{
+    display: flex;
+}
+
+
+.concepto{
+    width: 50%;
+}
+
+
+.imagenes{
+    width: 50%;
+    padding-bottom: 10px;
+    
+    
+}
+
+.imagenes>div{
+   width: 100%;
+   height: 300px;
+   margin: 0 auto;
+   background-image: url(img/vertical.jpg);
+}
+
+.footer{
+    text-align: center;
+    background-color: black;
+    position: relative;
+    bottom: 10;
+    width: 100%;
+    height: 40px;
+    color: white;
+    
+
+}
+
+.footer ul{
+    list-style: none;
+    padding-top: 10px;
+    
+}
+
+
+
+   
