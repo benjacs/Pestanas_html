@@ -4,10 +4,12 @@
 }
 
 body{
-    font-family:Arial, Helvetica, sans-serif;
-    font-size: 12px;
-    background-image: url(img/fondoverde.jpg);
+    font-family:'DM Sans', sans-serif;
+    font-size: 15px;
+    background-image: url(img/fondoportada.jpg);
     background-size: cover;
+    color: #616161;
+    
 }
 
 .main{
@@ -49,7 +51,25 @@ body{
     padding: 5px;
     margin-right: 50px;
     margin-top: 10px;
+    background-color: #fff;
     
+}
+
+.iconos ul li:hover{
+    background-color: #c9c9;
+}
+
+.icono1{
+    color: blue;
+    
+}
+
+.icono3{
+    color: skyblue;
+}
+
+.icono2{
+    color: red;
 }
 
 .menu ul{
@@ -75,6 +95,26 @@ body{
 
 .concepto{
     width: 50%;
+    padding: 0 20px 0 20px;
+}
+
+.concepto div{
+    text-align: justify;
+    margin: 0 0 25px 0;
+}
+
+.definicion{
+    height: 220px;
+}
+
+.definicion h2{
+    margin: 0 0 10px 0;
+}
+
+.resaltado{
+    color: red;
+    font-style: italic;
+    font-weight: bold;
 }
 
 
@@ -85,11 +125,31 @@ body{
     
 }
 
+.cuadro{
+    padding: 10px;
+    background-color: white;
+    margin: 0 auto;
+    width: 70%;
+}
+.cuadro img{
+    width: 100%;
+}
+
+.titulocuadro{
+    width: 70%;
+    background-color: #fff;
+    margin: 0 auto;
+    padding: 0 10px 10px 10px;
+    font-weight: bolder;
+    font-size: 13px;
+    text-align: center;
+}
+
 .imagenes>div{
    width: 100%;
-   height: 300px;
+   height: 220px;
    margin: 0 auto;
-   background-image: url(img/vertical.jpg);
+   /* background-image: url(img/vertical.jpg); */
 }
 
 .footer{
@@ -107,6 +167,7 @@ body{
 .footer ul{
     list-style: none;
     padding-top: 10px;
+    font-size: 12px;
     
 }
 
